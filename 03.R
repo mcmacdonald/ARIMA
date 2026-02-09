@@ -125,9 +125,12 @@ result <- model(
 
 
 
+# measures of predictive accuracy
+forecast::accuracy(result)
 
 
-# construct plot data
+
+# construct plot of the actual values for the homicide rates and the predicted values from the model
 plot_df <- data.frame(
   # time 
   anno = murders$anno[murders$region == "SICILIA"],
