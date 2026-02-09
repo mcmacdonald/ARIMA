@@ -203,3 +203,10 @@ census <- census %>%
   dplyr::summarise(pop = sum(pop))
 
 
+
+
+
+# close .r script
+
+
+
